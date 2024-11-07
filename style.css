@@ -1,0 +1,348 @@
+/* home page */
+*{
+    list-style-type: none ;
+    text-decoration: none;
+}
+body{
+    background: url(image/bg-image\ \(1\).jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+.bg-color{
+    color:#CB0D0D;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+    
+    
+}
+.bg-color1{
+    font-family: sans-serif;
+font-size: 110px;
+font-weight: 275;
+line-height: 92.64px;
+
+}
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: #490909;
+    height: 100px;
+    margin-top: 30px;
+    width: 100%;
+    
+
+}
+.list li a{
+    color: #fff;
+    font-family:  Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    text-align: left;
+
+}
+.list li a:hover{
+    color: #000000;
+}
+.first-image{
+    background-color:#F6E1C5;
+    padding: 25px;
+
+}
+.first-image h3{
+    color: black;
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 17.07px;
+letter-spacing: 0.19em;
+text-align: center;
+
+}
+.first-image h2{
+    color: black;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 250;
+    line-height: 39.01px;
+    letter-spacing: 0.19em;
+    text-align: center;
+
+}
+.first-image p{
+    color: black;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    position: relative;
+    
+
+}
+.box-place{
+    position: relative;
+    right: -9rem;
+    bottom: -4rem;
+}
+.btn-marron{
+    background-color: #490909; /* Code couleur pour un marron */
+    color: white; /* Texte en blanc pour un bon contraste */
+    padding: 10px 20px; /* Espacement intérieur du bouton */
+    border: none; /* Supprime les bordures par défaut */
+    border-radius: 5px; /* Bords arrondis */
+    cursor: pointer; /* Changement de curseur pour indiquer que c'est un bouton */
+    font-size: 16px; /* Taille du texte */
+    transition: background-color 0.3s ease; /* Animation pour l'effet au survol */
+    position: relative;
+    bottom: -3rem;
+}
+.img-size{
+    max-width:110% ;
+    height: auto;
+}
+.last_wrapper{
+    background-color:  rgba(165, 42, 42, 0.5);
+    width: 100%;
+    height: 60vh;
+    margin-top: 120px;
+}
+.box-lettre{
+    position: relative;
+    top: -2rem;
+    right: -10rem;
+    margin-top: 100px;
+    background-color:#F6E1C5;
+    width: 70%;
+    padding: 50px;
+    color: black;
+    border: 1px  dotted #F6E1C5;
+}
+.box-lettre h3{
+    color: black;
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 17.07px;
+letter-spacing: 0.19em;
+text-align: center;    
+}
+.box-lettre h1{
+    font-family: Montserrat;
+font-size: 32px;
+font-weight: 250;
+line-height: 39.01px;
+letter-spacing: 0.19em;
+text-align: center;
+
+}
+.footer_wrapper{
+    text-align: center;
+    margin-top: 120px;
+    background-color: #311919;
+    color: #fff;
+    width: 100%;
+    height: 15vh;
+    
+}
+.footer_wrapper p{
+    position: relative;
+    bottom: -3rem;
+}
+/* home page exit */
+/* about page */
+.second-place-2{
+    background-color: #F6E1C5;
+    color: black;
+    width: 60%;
+    padding: 40px;
+}
+.second-place-2 h3{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 17.07px;
+text-align: left;
+
+}
+.second-place-2 h1{
+    font-family: Montserrat;
+font-size: 36px;
+font-weight: 250;
+line-height: 43.88px;
+text-align: left;
+
+}
+.second-place-2 p{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.94px;
+text-align: left;
+
+}
+.box-place2{
+    position: relative;
+    right: -14rem;
+    top: -7rem;
+}
+.footer_wrapper2{
+    text-align: center;
+    margin-top: 0px;
+    background-color: #311919;
+    color: #fff;
+    width: 100%;
+    height: 15vh;
+    
+}
+.footer_wrapper2 p{
+    position: relative;
+    bottom: -3rem;
+}
+/* about page exit */
+/* product page */
+.second-place-3{
+    background-color: #F6E1C5;
+    color: black;
+    width: 75%;
+    padding: 16px;
+}
+.second-place-3 p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    text-align: left; 
+}
+.second-place-3 h4{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: left;  
+}
+.second-place-3 h2{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 250;
+    line-height: 43.88px;
+    text-align: left;    
+}
+.box-place10{
+    position: relative;
+    top: -5rem;
+    left: -2rem;
+}
+.box-place11{
+    position: relative;
+    top: -40rem;
+    right: -8rem;
+}
+.img-size2 {
+    max-width: 70%;
+    height: auto;
+}
+.footer_wrapper3{
+    text-align: center;
+    margin-top: 10px;
+    background-color: #311919;
+    color: #fff;
+    width: 100%;
+    height: 15vh;
+    
+}
+.footer_wrapper3 p{
+    position: relative;
+    bottom: -3rem;
+}
+/* product page exit  */
+/* store page */
+.wrapper{
+    margin-top: 100px;
+}
+.last_wrapper10{
+    background-color:  rgba(165, 42, 42, 0.5);
+    width: 100%;
+    height: 130vh;
+    margin-top: 120px;
+}
+.footer_wrapper4{
+    text-align: center;
+    margin-top: 0px;
+    background-color: #311919;
+    color: #fff;
+    width: 100%;
+    height: 15vh;
+    
+}
+.footer_wrapper4 p{
+    position: relative;
+    bottom: -3rem;
+}
+.span{
+    font-family: Merienda;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.99px;
+   
+}
+.second-place-20{
+    background-color: #F6E1C5;
+    color: black;
+    width: 60%;
+    padding: 40px;
+}
+.second-place-20 h3{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 17.07px;
+text-align: left;
+
+}
+.second-place-20 h1{
+    font-family: Montserrat;
+font-size: 36px;
+font-weight: 250;
+line-height: 43.88px;
+text-align: left;
+
+}
+.second-place-20 p{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.94px;
+text-align: left;
+
+}
+.box-place20{
+    position: relative;
+    right: -14rem;
+    top: -7rem;
+}
+.pp{
+    font-family: MingLiU_HKSCS-ExtB;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.79px;
+
+}
